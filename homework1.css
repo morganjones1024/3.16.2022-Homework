@@ -1,0 +1,57 @@
+.jumbotron h1 {
+    color: pink;
+    font-family: 'Cookie', cursive;
+}
+.jumbotron {
+    background-image: url('https://wallpaperforu.com/wp-content/uploads/2021/10/Wallpaper-Sailor-Moon-Sailor-Moon-Crystal-Ami-Mizuno-Ma27.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center -200px;
+}
+p {
+    color: gray;
+    font-family: 'Georgia'
+    font-size: 30px;
+}
+body {
+    background-color: pink;
+}
+
+footer {
+    background-color:rgb(127, 236, 255);
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+footer ul li {   
+    list-style: none;
+    float: right;
+}
+
+footer p {
+    float: left;
+}
+
+footer a, 
+footer p {
+    color: #fff;
+    vertical-align: middle;
+
+}
+.mission h3 {
+    padding: 5% 10%;
+    text-align: center;
+    position: center; 
+    font-family: 'Georgia';
+    color: white;
+    background-color: #323232;
+}
+@media screen and (max-width: 776px) {
+    .features img {
+        max-width: 90%;
+        margin: auto;
+    }
+}
